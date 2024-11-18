@@ -37,7 +37,7 @@ function processarDados(dados) {
         paper_bgcolor: getCSS('--bg-color'),
         height: 700,
         title: {
-            text: 'Redes sociais que as pessoas da minha escola mais gostam',
+            text: 'Redes sociais que as pessoas da escola mais gostam',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
@@ -54,7 +54,7 @@ function processarDados(dados) {
     }
 
     criarGrafico(data, layout)
-    incluirTexto(`Como no mundo, a amostra de pessoas entrevistadas por mim, demonstra um apreço pelo <span>Instagram</span> em relação a outras redes.`)
+    incluirTexto(`Como no mundo, a amostra de pessoas entrevistadas demonstra um maior apreço pelo <span>Instagram</span> em relação a outras redes.`)
 }
 
 redesSociaisFavoritasMinhaEscola()
